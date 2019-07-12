@@ -11,7 +11,11 @@ end
   end
 
   def question?
-
+    if self.end_with?("?")
+      true
+    else
+      faLse
+    end
   end
 
   def exclamation?
