@@ -14,7 +14,7 @@ end
     if self.end_with?("?")
       true
     else
-      faLse
+      false
     end
   end
 
